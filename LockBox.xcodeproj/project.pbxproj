@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E2D4E92E05C149000BED1B /* LockBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D4E82E05C149000BED1B /* LockBoxApp.swift */; };
+		84E2D4ED2E05C14B000BED1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E2D4EC2E05C14B000BED1B /* Assets.xcassets */; };
+		84E2D4F02E05C14B000BED1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E2D4EF2E05C14B000BED1B /* Preview Assets.xcassets */; };
+		84E2D4F52E05C14B000BED1B /* LockBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D4F32E05C14B000BED1B /* LockBox.xcdatamodeld */; };
+		84E2D4FF2E05C14C000BED1B /* LockBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D4FE2E05C14C000BED1B /* LockBoxTests.swift */; };
+		84E2D5092E05C14C000BED1B /* LockBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D5082E05C14C000BED1B /* LockBoxUITests.swift */; };
+		84E2D50B2E05C14C000BED1B /* LockBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D50A2E05C14C000BED1B /* LockBoxUITestsLaunchTests.swift */; };
+		84E2D5182E05C167000BED1B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D5172E05C167000BED1B /* Helpers.swift */; };
+		84E2D5202E0694EF000BED1B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E2D5222E0694EF000BED1B /* Localizable.strings */; };
+		84E2D5272E071917000BED1B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D5262E071917000BED1B /* Strings.swift */; };
+		84E2D5292E071AE3000BED1B /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D5282E071AE3000BED1B /* KeychainHelper.swift */; };
+		84E2D52B2E071B05000BED1B /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D52A2E071B05000BED1B /* AuthManager.swift */; };
+		84E2D52D2E071B31000BED1B /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D52C2E071B31000BED1B /* AuthenticationView.swift */; };
+		84E2D52F2E071B53000BED1B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D52E2E071B53000BED1B /* HomeView.swift */; };
+		84E2D5312E071B6E000BED1B /* ValultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D5302E071B6E000BED1B /* ValultItem.swift */; };
+		84E2D5332E071B8D000BED1B /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D5322E071B8D000BED1B /* AddItemView.swift */; };
+		84E2D5352E071BAA000BED1B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D5342E071BAA000BED1B /* DetailView.swift */; };
+		84E2D5372E071BCD000BED1B /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D5362E071BCD000BED1B /* EditItemView.swift */; };
+		84E2D5392E071BE5000BED1B /* ProtectedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D5382E071BE5000BED1B /* ProtectedDetailView.swift */; };
+		84E2D53B2E071BFA000BED1B /* VaultDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D53A2E071BFA000BED1B /* VaultDocument.swift */; };
+		84E2D53D2E071C23000BED1B /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D53C2E071C23000BED1B /* ShareSheet.swift */; };
+		84E2D53F2E071C45000BED1B /* QuickLookPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D53E2E071C45000BED1B /* QuickLookPreview.swift */; };
+		84E2D5442E072018000BED1B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D5432E072018000BED1B /* SettingsView.swift */; };
+		84E2D5462E07204F000BED1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D5452E07204F000BED1B /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E2D4FB2E05C14C000BED1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E2D4DD2E05C149000BED1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E2D4E42E05C149000BED1B;
+			remoteInfo = LockBox;
+		};
+		84E2D5052E05C14C000BED1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E2D4DD2E05C149000BED1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E2D4E42E05C149000BED1B;
+			remoteInfo = LockBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E2D4E52E05C149000BED1B /* My Secure Vault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Secure Vault.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E2D4E82E05C149000BED1B /* LockBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockBoxApp.swift; sourceTree = "<group>"; };
+		84E2D4EC2E05C14B000BED1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E2D4EF2E05C14B000BED1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84E2D4F42E05C14B000BED1B /* LockBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LockBox.xcdatamodel; sourceTree = "<group>"; };
+		84E2D4FA2E05C14C000BED1B /* LockBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E2D4FE2E05C14C000BED1B /* LockBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockBoxTests.swift; sourceTree = "<group>"; };
+		84E2D5042E05C14C000BED1B /* LockBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E2D5082E05C14C000BED1B /* LockBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockBoxUITests.swift; sourceTree = "<group>"; };
+		84E2D50A2E05C14C000BED1B /* LockBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84E2D5172E05C167000BED1B /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		84E2D5212E0694EF000BED1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84E2D5232E06957D000BED1B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84E2D5242E071897000BED1B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		84E2D5252E0718A4000BED1B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84E2D5262E071917000BED1B /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		84E2D5282E071AE3000BED1B /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		84E2D52A2E071B05000BED1B /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		84E2D52C2E071B31000BED1B /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		84E2D52E2E071B53000BED1B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		84E2D5302E071B6E000BED1B /* ValultItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValultItem.swift; sourceTree = "<group>"; };
+		84E2D5322E071B8D000BED1B /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		84E2D5342E071BAA000BED1B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		84E2D5362E071BCD000BED1B /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		84E2D5382E071BE5000BED1B /* ProtectedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectedDetailView.swift; sourceTree = "<group>"; };
+		84E2D53A2E071BFA000BED1B /* VaultDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultDocument.swift; sourceTree = "<group>"; };
+		84E2D53C2E071C23000BED1B /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		84E2D53E2E071C45000BED1B /* QuickLookPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookPreview.swift; sourceTree = "<group>"; };
+		84E2D5432E072018000BED1B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		84E2D5452E07204F000BED1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E2D4E22E05C149000BED1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2D4F72E05C14C000BED1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2D5012E05C14C000BED1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E2D4DC2E05C149000BED1B = {
+			isa = PBXGroup;
+			children = (
+				84E2D4E72E05C149000BED1B /* LockBox */,
+				84E2D4FD2E05C14C000BED1B /* LockBoxTests */,
+				84E2D5072E05C14C000BED1B /* LockBoxUITests */,
+				84E2D4E62E05C149000BED1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E2D4E62E05C149000BED1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E2D4E52E05C149000BED1B /* My Secure Vault.app */,
+				84E2D4FA2E05C14C000BED1B /* LockBoxTests.xctest */,
+				84E2D5042E05C14C000BED1B /* LockBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E2D4E72E05C149000BED1B /* LockBox */ = {
+			isa = PBXGroup;
+			children = (
+				84E2D5222E0694EF000BED1B /* Localizable.strings */,
+				84E2D4E82E05C149000BED1B /* LockBoxApp.swift */,
+				84E2D4EC2E05C14B000BED1B /* Assets.xcassets */,
+				84E2D5422E071D32000BED1B /* Managers */,
+				84E2D5172E05C167000BED1B /* Helpers.swift */,
+				84E2D5412E071D10000BED1B /* Models */,
+				84E2D5402E071D00000BED1B /* Views */,
+				84E2D53C2E071C23000BED1B /* ShareSheet.swift */,
+				84E2D4F32E05C14B000BED1B /* LockBox.xcdatamodeld */,
+				84E2D4EE2E05C14B000BED1B /* Preview Content */,
+				84E2D5262E071917000BED1B /* Strings.swift */,
+			);
+			path = LockBox;
+			sourceTree = "<group>";
+		};
+		84E2D4EE2E05C14B000BED1B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84E2D4EF2E05C14B000BED1B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84E2D4FD2E05C14C000BED1B /* LockBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E2D4FE2E05C14C000BED1B /* LockBoxTests.swift */,
+			);
+			path = LockBoxTests;
+			sourceTree = "<group>";
+		};
+		84E2D5072E05C14C000BED1B /* LockBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84E2D5082E05C14C000BED1B /* LockBoxUITests.swift */,
+				84E2D50A2E05C14C000BED1B /* LockBoxUITestsLaunchTests.swift */,
+			);
+			path = LockBoxUITests;
+			sourceTree = "<group>";
+		};
+		84E2D5402E071D00000BED1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84E2D52C2E071B31000BED1B /* AuthenticationView.swift */,
+				84E2D52E2E071B53000BED1B /* HomeView.swift */,
+				84E2D5452E07204F000BED1B /* ContentView.swift */,
+				84E2D5322E071B8D000BED1B /* AddItemView.swift */,
+				84E2D5342E071BAA000BED1B /* DetailView.swift */,
+				84E2D5362E071BCD000BED1B /* EditItemView.swift */,
+				84E2D5432E072018000BED1B /* SettingsView.swift */,
+				84E2D5382E071BE5000BED1B /* ProtectedDetailView.swift */,
+				84E2D53E2E071C45000BED1B /* QuickLookPreview.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84E2D5412E071D10000BED1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84E2D53A2E071BFA000BED1B /* VaultDocument.swift */,
+				84E2D5302E071B6E000BED1B /* ValultItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84E2D5422E071D32000BED1B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				84E2D5282E071AE3000BED1B /* KeychainHelper.swift */,
+				84E2D52A2E071B05000BED1B /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E2D4E42E05C149000BED1B /* LockBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E2D50E2E05C14C000BED1B /* Build configuration list for PBXNativeTarget "LockBox" */;
+			buildPhases = (
+				84E2D4E12E05C149000BED1B /* Sources */,
+				84E2D4E22E05C149000BED1B /* Frameworks */,
+				84E2D4E32E05C149000BED1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockBox;
+			productName = LockBox;
+			productReference = 84E2D4E52E05C149000BED1B /* My Secure Vault.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E2D4F92E05C14C000BED1B /* LockBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E2D5112E05C14C000BED1B /* Build configuration list for PBXNativeTarget "LockBoxTests" */;
+			buildPhases = (
+				84E2D4F62E05C14C000BED1B /* Sources */,
+				84E2D4F72E05C14C000BED1B /* Frameworks */,
+				84E2D4F82E05C14C000BED1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E2D4FC2E05C14C000BED1B /* PBXTargetDependency */,
+			);
+			name = LockBoxTests;
+			productName = LockBoxTests;
+			productReference = 84E2D4FA2E05C14C000BED1B /* LockBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84E2D5032E05C14C000BED1B /* LockBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E2D5142E05C14C000BED1B /* Build configuration list for PBXNativeTarget "LockBoxUITests" */;
+			buildPhases = (
+				84E2D5002E05C14C000BED1B /* Sources */,
+				84E2D5012E05C14C000BED1B /* Frameworks */,
+				84E2D5022E05C14C000BED1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E2D5062E05C14C000BED1B /* PBXTargetDependency */,
+			);
+			name = LockBoxUITests;
+			productName = LockBoxUITests;
+			productReference = 84E2D5042E05C14C000BED1B /* LockBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E2D4DD2E05C149000BED1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					84E2D4E42E05C149000BED1B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					84E2D4F92E05C14C000BED1B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 84E2D4E42E05C149000BED1B;
+					};
+					84E2D5032E05C14C000BED1B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 84E2D4E42E05C149000BED1B;
+					};
+				};
+			};
+			buildConfigurationList = 84E2D4E02E05C149000BED1B /* Build configuration list for PBXProject "LockBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				"zh-Hans",
+				es,
+			);
+			mainGroup = 84E2D4DC2E05C149000BED1B;
+			productRefGroup = 84E2D4E62E05C149000BED1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E2D4E42E05C149000BED1B /* LockBox */,
+				84E2D4F92E05C14C000BED1B /* LockBoxTests */,
+				84E2D5032E05C14C000BED1B /* LockBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E2D4E32E05C149000BED1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E2D4F02E05C14B000BED1B /* Preview Assets.xcassets in Resources */,
+				84E2D5202E0694EF000BED1B /* Localizable.strings in Resources */,
+				84E2D4ED2E05C14B000BED1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2D4F82E05C14C000BED1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2D5022E05C14C000BED1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E2D4E12E05C149000BED1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E2D5392E071BE5000BED1B /* ProtectedDetailView.swift in Sources */,
+				84E2D5312E071B6E000BED1B /* ValultItem.swift in Sources */,
+				84E2D5352E071BAA000BED1B /* DetailView.swift in Sources */,
+				84E2D52F2E071B53000BED1B /* HomeView.swift in Sources */,
+				84E2D5182E05C167000BED1B /* Helpers.swift in Sources */,
+				84E2D5442E072018000BED1B /* SettingsView.swift in Sources */,
+				84E2D52B2E071B05000BED1B /* AuthManager.swift in Sources */,
+				84E2D5292E071AE3000BED1B /* KeychainHelper.swift in Sources */,
+				84E2D53D2E071C23000BED1B /* ShareSheet.swift in Sources */,
+				84E2D53F2E071C45000BED1B /* QuickLookPreview.swift in Sources */,
+				84E2D4F52E05C14B000BED1B /* LockBox.xcdatamodeld in Sources */,
+				84E2D5272E071917000BED1B /* Strings.swift in Sources */,
+				84E2D5372E071BCD000BED1B /* EditItemView.swift in Sources */,
+				84E2D5332E071B8D000BED1B /* AddItemView.swift in Sources */,
+				84E2D5462E07204F000BED1B /* ContentView.swift in Sources */,
+				84E2D53B2E071BFA000BED1B /* VaultDocument.swift in Sources */,
+				84E2D52D2E071B31000BED1B /* AuthenticationView.swift in Sources */,
+				84E2D4E92E05C149000BED1B /* LockBoxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2D4F62E05C14C000BED1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E2D4FF2E05C14C000BED1B /* LockBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2D5002E05C14C000BED1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E2D5092E05C14C000BED1B /* LockBoxUITests.swift in Sources */,
+				84E2D50B2E05C14C000BED1B /* LockBoxUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E2D4FC2E05C14C000BED1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E2D4E42E05C149000BED1B /* LockBox */;
+			targetProxy = 84E2D4FB2E05C14C000BED1B /* PBXContainerItemProxy */;
+		};
+		84E2D5062E05C14C000BED1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E2D4E42E05C149000BED1B /* LockBox */;
+			targetProxy = 84E2D5052E05C14C000BED1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E2D5222E0694EF000BED1B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E2D5212E0694EF000BED1B /* en */,
+				84E2D5232E06957D000BED1B /* fr */,
+				84E2D5242E071897000BED1B /* zh-Hans */,
+				84E2D5252E0718A4000BED1B /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E2D50C2E05C14C000BED1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E2D50D2E05C14C000BED1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E2D50F2E05C14C000BED1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LockBox/Preview Content\"";
+				DEVELOPMENT_TEAM = Y7V389RLHF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.LockBox;
+				PRODUCT_NAME = "My Secure Vault";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84E2D5102E05C14C000BED1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LockBox/Preview Content\"";
+				DEVELOPMENT_TEAM = Y7V389RLHF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.LockBox;
+				PRODUCT_NAME = "My Secure Vault";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84E2D5122E05C14C000BED1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7V389RLHF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.LockBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LockBox";
+			};
+			name = Debug;
+		};
+		84E2D5132E05C14C000BED1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7V389RLHF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.LockBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LockBox";
+			};
+			name = Release;
+		};
+		84E2D5152E05C14C000BED1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7V389RLHF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.LockBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LockBox;
+			};
+			name = Debug;
+		};
+		84E2D5162E05C14C000BED1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7V389RLHF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.LockBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LockBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E2D4E02E05C149000BED1B /* Build configuration list for PBXProject "LockBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E2D50C2E05C14C000BED1B /* Debug */,
+				84E2D50D2E05C14C000BED1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E2D50E2E05C14C000BED1B /* Build configuration list for PBXNativeTarget "LockBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E2D50F2E05C14C000BED1B /* Debug */,
+				84E2D5102E05C14C000BED1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E2D5112E05C14C000BED1B /* Build configuration list for PBXNativeTarget "LockBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E2D5122E05C14C000BED1B /* Debug */,
+				84E2D5132E05C14C000BED1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E2D5142E05C14C000BED1B /* Build configuration list for PBXNativeTarget "LockBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E2D5152E05C14C000BED1B /* Debug */,
+				84E2D5162E05C14C000BED1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84E2D4F32E05C14B000BED1B /* LockBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84E2D4F42E05C14B000BED1B /* LockBox.xcdatamodel */,
+			);
+			currentVersion = 84E2D4F42E05C14B000BED1B /* LockBox.xcdatamodel */;
+			path = LockBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84E2D4DD2E05C149000BED1B /* Project object */;
+}
