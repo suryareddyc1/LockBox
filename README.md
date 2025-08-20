@@ -1,9 +1,11 @@
 # About app
+LockBox is all about saving your Fav URLs, passwords, and important IDs securly.
 
-## Frameworks used 
-- SwiftUI
-- Security Framework
-- LocalAuthentication
+## Highlights of the app
+- uses SwiftUI for UI
+- uses Security Framework for storage in Keychain
+- uses LocalAuthentication for faceID
+- Have Localization support for English, Chinese, Spanish, and French
 
 ## Screenshots
 <img width="589.5" height="2556" alt="IMG_4788" src="https://github.com/user-attachments/assets/bdc5ad14-33c7-4096-8996-f5ce34bce259" />
